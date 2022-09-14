@@ -1,0 +1,204 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  line-height: 1;
+  box-sizing: border-box;
+  font-family: "Rubik", sans-serif;
+  scroll-behavior: smooth;
+}
+
+.hero {
+  height: 100vh;
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.6)
+    ),
+    url("background.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+.navigation {
+  background-color: crimson;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 60px;
+  position: fixed;
+}
+.f-nav {
+  position: fixed;
+}
+.nav-ul {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+}
+
+.name {
+  font-family: "Ubuntu";
+  font-size: 30px;
+}
+span {
+  font-size: 28px;
+  color: #fff;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  padding: 200px 100px;
+  gap: 30px;
+  /* height: 30%; */
+  /* align-items: center; */
+  /* justify-content: center; */
+}
+.content-h1 {
+  color: #fff;
+  font-size: 40px;
+}
+.content-p {
+  line-height: 1.4;
+  color: #f1f3f5;
+  margin-top: 30px;
+}
+
+.btn {
+  padding: 10px 20px;
+  font-size: 20px;
+  font-weight: 500;
+  align-self: flex-start;
+  border-radius: 9px;
+  background-color: #fff;
+  color: #343a40;
+}
+.btn-1 {
+  padding: 10px 20px;
+  width: 300px;
+  margin-left: -25px;
+  font-size: 20px;
+  font-weight: 500;
+  text-align: center;
+  /* align-self: flex-start; */
+  /* border-radius: 9px; */
+  margin-top: 145.5px;
+  border-bottom-left-radius: 9px;
+  border-bottom-right-radius: 9px;
+  background-color: #fff;
+  color: #343a40;
+}
+.btn:hover {
+  /* background-color: #343a40; */
+  background-color: crimson;
+  color: #fff;
+}
+.btn-1:hover {
+  /* background-color: #343a40; */
+  background-color: #343a40;
+  color: #fff;
+}
+.li-nav {
+  font-size: 20px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.li-nav:hover {
+  color: #f1f3f5;
+}
+
+.projects {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  height: 100vh;
+  background-color: #111;
+  position: relative;
+}
+
+.skills-box {
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+  height: 300px;
+  width: 300px;
+  background-color: #333;
+  padding: 30px;
+  border-radius: 9px;
+  color: #fff;
+}
+
+.skill-h {
+  font-family: "Ubuntu";
+  font-size: 30px;
+}
+.skill-p {
+  font-size: 15px;
+  line-height: 1.5;
+}
+.skills-box:hover {
+  transform: scale(1.05);
+  background-color: crimson;
+
+  transition: all 0.3s ease-in-out;
+}
+
+.proj-h {
+  font-family: "Ubuntu";
+  font-size: 40px;
+  position: absolute;
+  top: 10%;
+  color: #fff;
+}
+.services {
+  height: 130vh;
+  background-color: #f1f3f5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 70px;
+  position: relative;
+}
+
+.service {
+  margin-top: 120px;
+  background-color: crimson;
+  height: 500px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+  padding: 25px;
+  border: solid 1px black;
+  border-radius: 9px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+}
+
+.service-h {
+  font-family: "Ubuntu";
+  font-size: 40px;
+  color: #fff;
+}
+.service-p {
+  font-size: 23px;
+  color: #fff;
+}
+.price {
+  color: #fff;
+}
+.ser-h {
+  font-weight: 700;
+  font-family: "Ubuntu";
+  font-size: 40px;
+  color: #111;
+  top: 10%;
+
+  position: absolute;
+}
+.contacts {
+  height: 50vh;
+}
