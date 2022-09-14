@@ -14,12 +14,20 @@
   gap: 300px;
   /* justify-content: center; */
   align-items: center;
+  /* background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.6)
+    ),
+    url("background.jpg");
+     */
   background-image: linear-gradient(
       to right,
       rgba(0, 0, 0, 0.2),
       rgba(0, 0, 0, 0.6)
     ),
     url("background.jpg");
+
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -36,7 +44,7 @@
       rgba(0, 0, 0, 0.4),
       rgba(0, 0, 0, 0.4)
     ),
-    url("shoaib.jpg");
+    url("shoaib2.jpg");
 }
 
 .navigation {
