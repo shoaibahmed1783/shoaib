@@ -10,15 +10,41 @@
 
 .hero {
   height: 100vh;
+  display: flex;
+  gap: 300px;
+  /* justify-content: center; */
+  align-items: center;
+  /* background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.6)
+    ),
+    url("background.jpg");
+     */
   background-image: linear-gradient(
       to right,
       rgba(0, 0, 0, 0.2),
       rgba(0, 0, 0, 0.6)
     ),
     url("background.jpg");
+
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
+}
+.hero-img {
+  width: 500px;
+  height: 500px;
+  background-size: cover;
+  border-radius: 50%;
+  border: solid 2px #000;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+  background-image: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.4)
+    ),
+    url("shoaib2.jpg");
 }
 
 .navigation {
